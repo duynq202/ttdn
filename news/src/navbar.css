@@ -1,0 +1,111 @@
+.navbar {
+    background-color: #f2f2f2; 
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  
+ 
+  /* .navbar-logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d32f2f;
+    text-decoration: none;
+  } */
+  
+
+  .navbar-logo img {
+    width: 60px; 
+    height: auto; 
+    object-fit: contain; 
+    padding-top: 5px;
+  }
+
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-item {
+    margin-left: 20px;
+  }
+  
+  .menu-item a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-item a:hover {
+    color: #d32f2f; 
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column;
+    }
+  
+    .navbar-menu {
+      flex-direction: column;
+    }
+  
+    .menu-item {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  }
+
+.avatar-icon {
+  width: 25px; 
+  height: 25px;
+  border-radius: 50%; 
+  object-fit: cover;
+}
+
+/* Dropdown menu cho Cá nhân */
+.personal-menu {
+  position: relative;
+}
+
+.personal-dropdown {
+  position: absolute;
+  top: 110%;
+  right: 10;
+  background-color: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 150px;
+  justify-content: center;
+}
+
+.personal-dropdown li {
+  padding: 10px;
+}
+
+.personal-dropdown li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.personal-dropdown li:hover {
+  background-color: #f2f2f2;
+}

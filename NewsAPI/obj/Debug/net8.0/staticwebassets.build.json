@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "7CZapvIdwXc50fIj8xQ/3CkstWXdnGYLaffKiEBqFwo=",
+  "Source": "NewsAPI",
+  "BasePath": "_content/NewsAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NewsAPI\\wwwroot",
+      "Source": "NewsAPI",
+      "ContentRoot": "D:\\TTDN\\nd2345\\nd2345\\NewsAPI\\wwwroot\\",
+      "BasePath": "_content/NewsAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
